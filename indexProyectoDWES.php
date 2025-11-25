@@ -85,7 +85,7 @@
     <footer>
         <caption>
             <h4>2025-26 IES LOS SAUCES. © Todos los derechos reservados.</h4>
-        <p><a href="https://enriquenielor.ieslossauces.es/">Enrique Nieto Lorenzo</a> Fecha de Actualización : 20-11-2025</p>
+            <p><a href="https://enriquenielor.ieslossauces.es/">Enrique Nieto Lorenzo</a> Fecha de Actualización : 20-11-2025</p>
         </caption>
     </footer>
 </body>
