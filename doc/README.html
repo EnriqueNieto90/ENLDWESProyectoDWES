@@ -169,7 +169,7 @@
 <ul>
 <li><a href="#111-configuraci%C3%B3n-inicial">1.1.1 <strong>Configuración inicial</strong></a>
 <ul>
-<li><a href="#nombre-y-configuraci%C3%B3n-de-red">Nombre y configuración de red</a></li>
+<li><a href="#nombre-y-configuraic%C3%B3n-de-red">Nombre y configuraicón de red</a></li>
 <li><a href="#cambiar-nombre-del-servidor"><strong>Cambiar nombre del servidor</strong></a></li>
 <li><a href="#actualizar-el-sistema"><strong>Actualizar el sistema</strong></a></li>
 <li><a href="#configuraci%C3%B3n-fecha-y-hora"><strong>Configuración fecha y hora</strong></a></li>
@@ -177,14 +177,7 @@
 <li><a href="#habilitar-cortafuegos"><strong>Habilitar cortafuegos</strong></a></li>
 </ul>
 </li>
-<li><a href="#conexi%C3%B3n-al-servidor-desde-windows"><strong>Conexión al servidor desde Windows</strong></a>
-<ul>
-<li><a href="#comprobar-ip-puerta-de-enlace-y-dns"><strong>Comprobar IP, puerta de enlace y DNS</strong></a></li>
-<li><a href="#particiones"><strong>Particiones</strong></a></li>
-<li><a href="#actualizaci%C3%B3n"><strong>Actualización</strong></a></li>
-<li><a href="#comprobaciones-sistema-operativo"><strong>Comprobaciones sistema operativo</strong></a></li>
-</ul>
-</li>
+<li><a href="#conexi%C3%B3n-al-servidor-desde-windows"><strong>Conexión al servidor desde Windows</strong></a></li>
 <li><a href="#112-instalaci%C3%B3n-del-servidor-web">1.1.2 Instalación del servidor web</a>
 <ul>
 <li><a href="#instalaci%C3%B3n">Instalación</a></li>
@@ -207,19 +200,13 @@
 <ul>
 <li><a href="#121-configuraci%C3%B3n-inicial">1.2.1 <strong>Configuración inicial</strong></a>
 <ul>
-<li><a href="#nombre-y-configuraci%C3%B3n-de-red-1"><strong>Nombre y configuración de red</strong></a></li>
+<li><a href="#nombre-y-configuraci%C3%B3n-de-red"><strong>Nombre y configuración de red</strong></a></li>
 <li><a href="#cuentas-administradoras-1"><strong>Cuentas administradoras</strong></a></li>
 </ul>
 </li>
 <li><a href="#122-navegadores">1.2.2 <strong>Navegadores</strong></a></li>
 <li><a href="#123-filezilla">1.2.3 <strong>FileZilla</strong></a></li>
 <li><a href="#124-netbeans">1.2.4 <strong>Netbeans</strong></a></li>
-</ul>
-</li>
-<li><a href="#informaci%C3%B3n-general-e-instalaci%C3%B3n">Información General e Instalación</a></li>
-<li><a href="#creaci%C3%B3n-de-un-proyecto-php-desde-un-servidor-remoto">Creación de un Proyecto PHP desde un Servidor Remoto</a></li>
-<li><a href="#eliminaci%C3%B3n-de-un-proyecto">Eliminación de un Proyecto</a>
-<ul>
 <li><a href="#125-visual-studio-code">1.2.5 <strong>Visual Studio Code</strong></a></li>
 </ul>
 </li>
@@ -234,7 +221,7 @@
 <h3 id="11-ubuntu-server-24043-lts">1.1 Ubuntu Server 24.04.3 LTS</h3>
 <p>Este documento es una guía detallada del proceso de instalación y configuración de un servidor de aplicaciones en Ubuntu Server utilizando Apache, con soporte PHP y MySQL</p>
 <h4 id="111-configuración-inicial">1.1.1 <strong>Configuración inicial</strong></h4>
-<h5 id="nombre-y-configuración-de-red">Nombre y configuración de red</h5>
+<h5 id="nombre-y-configuraicón-de-red">Nombre y configuraicón de red</h5>
 <blockquote>
 <p><strong>Nombre de la máquina</strong>: daw-used<br>
 <strong>Memoria RAM</strong>: 2G<br>
@@ -304,11 +291,6 @@ sudo apt upgrade
 <li>Creamos el usuario miadmin2 como administrador (miadmin se crea al instalar UbuntuServer)</li>
 </ul>
 <pre><code>sudo usermod -aG sudo miadmin2
-</code></pre>
-<ul>
-<li>Para crear nuevos miadmin y que estén en los mismos grupos que miadmin</li>
-</ul>
-<pre><code>sudo useradd -m -G sudo,adm,cdrom,dip,plugdev,lxd -s /bin/bash miadmin3
 </code></pre>
 <h5 id="habilitar-cortafuegos"><strong>Habilitar cortafuegos</strong></h5>
 <ul>
@@ -430,6 +412,7 @@ ls
 <li>directorio de trabajo: /var/www/html</li>
 <li>grupo:www-data</li>
 <li>shell:/bin/bash</li>
+<li></li>
 </ul>
 </li>
 </ul>
@@ -450,11 +433,6 @@ ls
 </ul>
 <pre><code>sudo chmod -R 775 /var/www/html
 </code></pre>
-<ul>
-<li>Para crear un administrador de la web y cambiar propietario, permisos y crear contraseña en una sola línea</li>
-</ul>
-<pre><code>sudo adduser --home /vaar/www/html --ingroup www-data --shell /bin/bash operadorweb
-</code></pre>
 <h4 id="113-php">1.1.3 PHP</h4>
 <h4 id="114-mysql">1.1.4 MySQL</h4>
 <h4 id="115-xdebug">1.1.5 XDebug</h4>
@@ -465,107 +443,11 @@ ls
 <h4 id="1110-ldap">1.1.10 LDAP</h4>
 <h3 id="12-windows-11">1.2 Windows 11</h3>
 <h4 id="121-configuración-inicial">1.2.1 <strong>Configuración inicial</strong></h4>
-<h5 id="nombre-y-configuración-de-red-1"><strong>Nombre y configuración de red</strong></h5>
+<h5 id="nombre-y-configuración-de-red"><strong>Nombre y configuración de red</strong></h5>
 <h5 id="cuentas-administradoras-1"><strong>Cuentas administradoras</strong></h5>
 <h4 id="122-navegadores">1.2.2 <strong>Navegadores</strong></h4>
 <h4 id="123-filezilla">1.2.3 <strong>FileZilla</strong></h4>
 <h4 id="124-netbeans">1.2.4 <strong>Netbeans</strong></h4>
-<h3 id="información-general-e-instalación">Información General e Instalación</h3>
-<p>Antes de comenzar, asegurarse de tener la versión correcta del IDE.</p>
-<ul>
-<li><strong>IDE:</strong> Apache NetBeans</li>
-<li><strong>Versión Recomendada:</strong> 20</li>
-<li><strong>Página Oficial:</strong> <a href="https://netbeans.apache.org/">https://netbeans.apache.org/</a></li>
-<li><strong>Descarga Directa (Versión 20):</strong> <a href="https://netbeans.apache.org/front/main/download/nb20/">https://netbeans.apache.org/front/main/download/nb20/</a></li>
-</ul>
-<h3 id="creación-de-un-proyecto-php-desde-un-servidor-remoto">Creación de un Proyecto PHP desde un Servidor Remoto</h3>
-<p>Este proceso configura un proyecto en el ordenador (local) que se sincroniza con una carpeta en un servidor remoto.</p>
-<p><strong>Paso 1: Iniciar el Asistente de Nuevo Proyecto</strong></p>
-<ul>
-<li>Haz clic en el menú <code>File &gt; New Project...</code></li>
-<li>O pulsa en el icono de la carpeta naranja con un símbolo <code>+</code> en la barra de herramientas.</li>
-</ul>
-<p><strong>Paso 2: Seleccionar el Tipo de Proyecto</strong></p>
-<ol>
-<li>En la ventana &quot;Choose Project&quot;, selecciona la categoría <strong>PHP</strong>.</li>
-<li>En la lista de &quot;Projects&quot;, elige <strong>PHP Application from Remote Server</strong>.</li>
-<li>Haz clic en <strong>Next</strong>.</li>
-</ol>
-<p><img src="images\phpRemoteServer.png" alt="Alt"></p>
-<p><strong>Paso 3: Nombre y Ubicación Local</strong></p>
-<ol>
-<li><strong>Project Name:</strong> Asigna un nombre descriptivo a tu proyecto (ej: <code>ENLDWESProyectoTema5</code>).</li>
-<li><strong>Sources Folder:</strong> Cambia la ruta por defecto a tu carpeta de trabajo personal donde se guardarán los archivos en <strong>tu ordenador</strong>(ej: <code>D:\ProyectosNB\ENLDWESProyectoTema5</code>).</li>
-<li>Haz clic en <strong>Next</strong>.</li>
-</ol>
-<p><img src="images\NameAndLocation.png" alt="Alt"></p>
-<p><strong>Paso 4: Configuración de la Conexión Remota (SFTP)</strong></p>
-<p>Esta es la parte más importante, donde se enlaza el proyecto local con el servidor.</p>
-<ol>
-<li><strong>Project URL:</strong> Introduce la URL con la que accederás al proyecto en un navegador (ej: <code>http://10.199.9.184</code>).</li>
-<li><strong>Remote Connection:</strong> Haz clic en el botón <strong>Manage...</strong> para configurar los detalles de la conexión SFTP por primera vez.</li>
-</ol>
-<p><img src="images\RemoteConnection.png" alt="Alt"></p>
-<p><strong>Dentro de la ventana &quot;Manage Remote Connections&quot;:</strong></p>
-<ol>
-<li>Haz clic en <strong>Add...</strong></li>
-<li>Rellena los datos de la conexión:
-<ul>
-<li><strong>Connection Name:</strong> Un nombre para identificar esta conexión (ej: <code>enl-used</code>).</li>
-<li><strong>Connection Type:</strong> Selecciona <strong>SFTP</strong>.</li>
-<li><strong>Host Name:</strong> La dirección IP del servidor remoto.</li>
-<li><strong>Port:</strong> El puerto (normalmente <code>22</code> para SFTP).</li>
-<li><strong>User Name:</strong> Tu nombre de usuario con permisos en el servidor.</li>
-<li><strong>Password:</strong> Tu contraseña.</li>
-</ul>
-</li>
-<li>Haz clic en <strong>Test Connection</strong>. Si todo es correcto, verás un mensaje de &quot;Connection successful&quot;. Acepta el mensaje.</li>
-<li>Haz clic en <strong>OK</strong> para guardar la configuración de la conexión.</li>
-</ol>
-<p><img src="images\ManageConnection.png" alt="Alt"></p>
-<p><strong>De vuelta en la ventana del asistente:</strong></p>
-<ol start="5">
-<li><strong>Upload Directory:</strong> Especifica la ruta de la carpeta del proyecto <strong>en el servidor</strong>.
-<ul>
-<li>Si el proyecto está en la raíz del servidor, puedes poner solo <code>/</code>.</li>
-<li>Si está en una carpeta, la ruta sería algo como <code>/ENLDWESProyectoTema5</code>.</li>
-</ul>
-</li>
-<li>Haz clic en <strong>Next</strong>. Es posible que aparezca un mensaje de confirmación de la conexión, haz clic en <strong>Yes</strong>.</li>
-</ol>
-<p><img src="images\RemoteConnection.png" alt="Alt"></p>
-<blockquote>
-<p><strong>Nota importante:</strong> Para que la conexión inicial funcione, la carpeta del proyecto ya debe existir en el servidor y es recomendable que contenga al menos un archivo (como un <code>index.php</code> vacío).</p>
-</blockquote>
-<p><strong>Paso 5: Sincronización y Finalización</strong></p>
-<ol>
-<li>El asistente te mostrará los archivos que existen en la carpeta remota y te preguntará cuáles quieres descargar a tu carpeta local. Selecciona los que necesites.</li>
-<li>Haz clic en <strong>Finish</strong>. Acepta cualquier otro mensaje de confirmación que aparezca.</li>
-</ol>
-<p><img src="images\Confirmation.png" alt="Alt"></p>
-<p><strong>Paso 6: Proyecto Creado</strong></p>
-<p>El proyecto aparecerá en el panel izquierdo del IDE (&quot;Projects&quot;), y los archivos locales estarán sincronizados con los del servidor.</p>
-<p><img src="images\Creation.png" alt="Alt"></p>
-<hr>
-<h3 id="eliminación-de-un-proyecto">Eliminación de un Proyecto</h3>
-<p>Para eliminar un proyecto de NetBeans:</p>
-<ol>
-<li>En el panel &quot;Projects&quot;, haz clic derecho sobre el nombre del proyecto que quieres eliminar.</li>
-<li>Selecciona la opción <strong>Delete</strong>.</li>
-</ol>
-<p><img src="images\Delete.png" alt="Alt"></p>
-<ol start="3">
-<li>Aparecerá un cuadro de diálogo de confirmación.
-<ul>
-<li><strong>Importante:</strong> Si marcas la casilla <code>Also delete sources under [ruta del proyecto]</code>, se borrarán permanentemente los archivos del proyecto de <strong>tu ordenador local</strong>.</li>
-<li>Haz clic en <strong>Yes</strong> para confirmar.</li>
-</ul>
-</li>
-</ol>
-<p><img src="images\DeleteConfirm.png" alt="Alt"></p>
-<blockquote>
-<p>Este proceso <strong>solo elimina el proyecto de NetBeans y (opcionalmente) los archivos locales</strong>. Los archivos en el <strong>servidor remoto no se ven afectados</strong> y, si quieres eliminarlos, hay que hacerlo manualmente.</p>
-</blockquote>
 <h4 id="125-visual-studio-code">1.2.5 <strong>Visual Studio Code</strong></h4>
 <h2 id="2-github">2. GitHub</h2>
 <h2 id="3entorno-de-explotación">3.Entorno de Explotación</h2>
