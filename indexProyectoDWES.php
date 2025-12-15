@@ -76,9 +76,8 @@
             <li><h3>TEMA 5 - DESARROLLO DE APLICACIONES WEB</h3></li>
             <li><a href="/ENLDWESProyectoTema5/indexProyectoTema5.php"> Ejercicios Tema 5</a></li>
             <li><a href="/ENLDWESLoginLogoffTema5/indexLoginLogoffTema5.php"> Login Logoff Tema 5</a></li>
-<!--            <li>TEMA 6 - APLICACIONES WEB MULTICAPA</li>
-            <li>TEMA 7 - PROGRAMACIÓN DE SERVICIOS WEB</li>
-            <li>TEMA 8 - DESARROLLO DE APLICACIONES WEB HÍBRIDAS</li>-->
+            <li><h3>TEMA 6 - APLICACIONES WEB MULTICAPA</h3></li>
+            <li><a href="/ENLDWESLoginLogoff/indexLoginLogoff.php"> Login Logoff</a></li>
         </ul>
     </main>
 
