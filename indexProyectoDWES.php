@@ -2,90 +2,192 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>CFGS - Desarrollo de Aplicaciones Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f9;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: green;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        main {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            background: #ecf0f1;
-            margin: 10px 0;
-            padding: 15px;
-            border-left: 5px solid green;
-            border-right: 5px solid green;
-            transition: 0.3s;
-	    border-radius:8px;
-        }
-        li:hover {
-            background: #d6eaf8;
-            border-left: 5px solid purple;
-            border-right: 5px solid purple;
-        }
-
-        footer{
-            margin: auto;
-            background-color: green;
-            text-align: center;
-            height: 150px;
-	    color: white;
-        }
-	main{
-	text-align:center;
-	justify-content:center;
-	}
-
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrique Nieto | DWES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="webroot/css/estilosdwes.css">
 </head>
 <body>
-    <header>
-        <h2>CFGS - Desarrollo de Aplicaciones Web</h2>
-        <h1><b>Enrique Nieto Lorenzo</b></h1>
-        <p>Curso 2025/2026 - Grupo DAW2 - IES Los Sauces</p>
+
+    <header class="cabecera-principal">
+        <div class="contenedor contenido-cabecera">
+            <div class="identidad">
+                <a href="../index.html" style="text-decoration:none;">
+                    <div class="logo-iniciales">EN</div>
+                </a>
+                <h1>Enrique Nieto Lorenzo</h1>
+            </div>
+            <div class="curso-badge" style="background-color: #777BB4; color: white;">
+                DWES
+            </div>
+        </div>
     </header>
-    <main>
-        <h3><b>TEMARIO DESARROLLO DE APLICACIONES EN ENTORNO SERVIDOR</b></h3>
-        <ul>
-            <li><a href="doc/Tema1Ejercicios.pdf" target="_blank"><h3>TEMA 1 - DESARROLLO WEB EN ENTORNO SERVIDOR</h3></a></li>
-            <li><a href="doc/README.html" target="_blank"><h3>TEMA 2 - INSTALACIÓN, CONFIGURACIÓN Y DOCUMENTACIÓN DEL ENTORNO DE DESARROLLO Y DEL ENTORNO DE EXPLOTACIÓN</h3></a></li>
-            <li><a href="/ENLDWESProyectoTema3/indexProyectoTema3.php"><h3>TEMA 3 - CARACTERÍSTICAS DEL LENGUAJE PHP</h3></a></li>
-            <li><a href="/ENLDWESProyectoTema4/indexProyectoTema4.php"><h3>TEMA 4 - TÉCNICAS DE ACCESO A DATOS EN PHP</h3></a></li>
-            <li><h3>TEMA 5 - DESARROLLO DE APLICACIONES WEB</h3></li>
-            <li><a href="/ENLDWESProyectoTema5/indexProyectoTema5.php"> Ejercicios Tema 5</a></li>
-            <li><a href="/ENLDWESLoginLogoffTema5/indexLoginLogoffTema5.php"> Login Logoff Tema 5</a></li>
-            <li><h3>TEMA 6 - APLICACIONES WEB MULTICAPA</h3></li>
-            <li><a href="/ENLDWESLoginLogoff/indexLoginLogoff.php"> Login Logoff</a></li>
-        </ul>
+
+    <main class="contenedor-principal">
+        
+        <h2 class="titulo-pagina">Desarrollo Web en Entorno Servidor</h2>
+        
+        <div class="rejilla-tarjetas">
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #777BB4;">
+                    
+                    
+                    <i class="fa-solid fa-book"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 1</span>
+                    <span class="nombre-tema">Entorno Servidor</span>
+                    <ul class="lista-ejercicios">
+                        <li>
+                            <a href="doc/Tema1Ejercicios.pdf" target="_blank">
+                                <i class="fa-regular fa-file-pdf"></i> Estudio Tema 1
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #777BB4;">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 2</span>
+                    <span class="nombre-tema">Instalación y Configuración</span>
+                    <ul class="lista-ejercicios">
+                        <li>
+                            <a href="https://github.com/EnriqueNieto90/ENLDAWProyectoDAW" target="_blank">
+                                <i class="fa-brands fa-github"></i> Estudio Tema 2
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <i class="fa-brands fa-php"></i> Funciones PHP
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #777BB4;">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 3</span>
+                    <span class="nombre-tema">Características PHP</span>
+                    <ul class="lista-ejercicios">
+                        <li>
+                            <a href="/ENLDWESProyectoTema3/indexProyectoTema3.php">
+                                <i class="fa-solid fa-folder-open"></i> Proyecto Tema 3
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #777BB4;">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 4</span>
+                    <span class="nombre-tema">Acceso a Datos</span>
+                    <ul class="lista-ejercicios">
+                        <li>
+                            <a href="/ENLDWESProyectoTema4/indexProyectoTema4.php">
+                                <i class="fa-solid fa-database"></i> Proyecto Tema 4
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #777BB4;">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 5</span>
+                    <span class="nombre-tema">Desarrollo Apps Web</span>
+                    <ul class="lista-ejercicios">
+                        <li>
+                            <a href="/ENLDWESProyectoTema5/indexProyectoTema5.php">
+                                <i class="fa-solid fa-project-diagram"></i> Proyecto Tema 5
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/ENLDWESLoginLogoffTema5/indexLoginLogoffTema5.php">
+                                <i class="fa-solid fa-right-to-bracket"></i> Login / Logoff
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #777BB4;">
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 6</span>
+                    <span class="nombre-tema">Apps Multicapa</span>
+                    <ul class="lista-ejercicios">
+                        <li>
+                            <a href="/ENLDWESLoginLogoff/indexLoginLogoff.php">
+                                <i class="fa-solid fa-sitemap"></i> Login Multicapa
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #999;">
+                    <i class="fa-solid fa-cloud"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 7</span>
+                    <span class="nombre-tema">Servicios Web</span>
+                    <ul class="lista-ejercicios"></ul>
+                </div>
+            </article>
+
+            <article class="tarjeta tarjeta-tema">
+                <div class="tarjeta-imagen" style="background-color: #999;">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+                <div class="tarjeta-contenido">
+                    <span class="siglas">Tema 8</span>
+                    <span class="nombre-tema">Apps Híbridas</span>
+                    <ul class="lista-ejercicios">
+                        <li class="sin-enlace">
+                             App Final
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+        </div>
     </main>
 
-    <footer>
-        <caption>
-            <h4>2025-26 IES LOS SAUCES. © Todos los derechos reservados.</h4>
-        <p><a href="https://enriquenielor.ieslossauces.es/">Enrique Nieto Lorenzo</a> Fecha de Actualización : 20-11-2025</p>
-        </caption>
+    <footer class="pie-pagina">
+        <div class="contenedor contenido-footer">
+            <div class="texto-legal">
+                <p>2025-26 IES LOS SAUCES. ©Todos los derechos reservados.</p>
+                <p class="autor">Enrique Nieto Lorenzo. Fecha de Actualización: 07-01-2026</p>
+            </div>
+            <div class="iconos-footer">
+                <a href="https://github.com/EnriqueNieto90/ENLDWESProyectoDWES" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="../index.html" title="Inicio"><i class="fa-solid fa-house"></i></a> 
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>
