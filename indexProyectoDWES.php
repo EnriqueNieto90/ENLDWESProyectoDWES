@@ -64,7 +64,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="" target="_blank">
+                            <a href="https://github.com/EnriqueNieto90/ENLDWESProyectoDWES/blob/developerENL/doc/FUNCIONES_CLASES_PHP.md" target="_blank">
                                 <i class="fa-brands fa-php"></i> Funciones PHP
                             </a>
                         </li>
