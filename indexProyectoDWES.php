@@ -138,7 +138,7 @@
                     <ul class="lista-ejercicios">
                         <li>
                             <a href="/ENLDWESLoginLogoff/indexLoginLogoff.php">
-                                <i class="fa-solid fa-sitemap"></i> Login Multicapa
+                                <i class="fa-solid fa-sitemap"></i> Login / Logoff Multicapa
                             </a>
                         </li>
                     </ul>
@@ -146,7 +146,7 @@
             </article>
 
             <article class="tarjeta tarjeta-tema">
-                <div class="tarjeta-imagen" style="background-color: #999;">
+                <div class="tarjeta-imagen" style="background-color: #777BB4;">
                     <i class="fa-solid fa-cloud"></i>
                 </div>
                 <div class="tarjeta-contenido">
@@ -157,15 +157,17 @@
             </article>
 
             <article class="tarjeta tarjeta-tema">
-                <div class="tarjeta-imagen" style="background-color: #999;">
-                    <i class="fa-solid fa-rocket"></i>
+                <div class="tarjeta-imagen" style="background-color: #777BB4;">
+                    <i class="fa-solid fa-sliders overlay-icon"></i>
                 </div>
                 <div class="tarjeta-contenido">
                     <span class="siglas">Tema 8</span>
                     <span class="nombre-tema">Apps Híbridas</span>
                     <ul class="lista-ejercicios">
-                        <li class="sin-enlace">
-                             App Final
+                        <li>
+                            <a href="/ENLDWESAplicacionFinal/index.php">
+                                <i class="fa-solid fa-sliders overlay-icon"></i> Aplicación Final
+                            </a>
                         </li>
                     </ul>
                 </div>
