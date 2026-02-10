@@ -165,7 +165,7 @@
                     <span class="nombre-tema">Apps Híbridas</span>
                     <ul class="lista-ejercicios">
                         <li>
-                            <a href="/208DAWBiblioteca/index.php">
+                            <a href="https://biblioteca.enriquenielor.ieslossauces.es/">
                                 <i class="fa fa-book"></i> Aplicación Biblioteca
                             </a>
                         </li>
