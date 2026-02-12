@@ -165,6 +165,13 @@
                     <span class="nombre-tema">Apps Híbridas</span>
                     <ul class="lista-ejercicios">
                         <li>
+                            <a href="https://biblioteca.enriquenielor.ieslossauces.es/">
+                                <i class="fa fa-book"></i> Aplicación Biblioteca
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="lista-ejercicios">
+                        <li>
                             <a href="/ENLDWESAplicacionFinal/index.php">
                                 <i class="fa-solid fa-sliders overlay-icon"></i> Aplicación Final
                             </a>
